@@ -1,0 +1,20 @@
+{
+  
+  
+  "1": {
+    "roll_no": "1",
+    "name": "mit",
+    "semester": 2,
+    "total_lectures": 0,
+    "attended_lectures": 0,
+    "marks": null
+  },
+  "14": {
+    "roll_no": "14",
+    "name": "dhruv",
+    "semester": 2,
+    "total_lectures": 20,
+    "attended_lectures": 15,
+    "marks": 80.0
+  }
+}
