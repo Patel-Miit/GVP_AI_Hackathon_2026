@@ -1,0 +1,47 @@
+
+--------------------------Prompt for Smart Attendence  Tracker System---------------------------------
+
+USE AI IN  : Claude.ai
+
+
+Smart Attendance Management System - Project Prompt
+Project Overview
+Build a comprehensive Smart Attendance Management System that tracks student attendance, manages academic records, and provides analytics. The system includes an attendance tracker module that manages student data with validation, persistence, and reporting capabilities.
+
+Core Features
+1. Student Management
+
+Add students with roll number, name, and semester
+Validate roll numbers (1-9999 range)
+Validate semester (1-8 range)
+Prevent duplicate student entries
+Store student data persistently in JSON format
+
+2. Attendance Tracking
+
+Mark attendance for students (total lectures vs attended lectures)
+Calculate attendance percentage per student
+Validate attendance data (attended ≤ total, non-negative values)
+Update attendance records dynamically
+
+3. Academic Records
+
+Enter and store student marks (0-100 range)
+Validate marks before saving
+Link marks with student records
+Support for updating marks
+
+4. Analytics & Reporting
+
+Calculate class-wide average attendance
+Calculate class-wide average marks
+Generate total student count
+Display summary statistics
+Support for detailed student reports
+
+5. Data Persistence
+
+Save student data to JSON file
+Load data on application startup
+Auto-create data directory if missing
+Handle data serialization/deserialization
